@@ -9,6 +9,9 @@
     grid-template-columns: 20% 44% 16% 20%;
     overflow: hidden;
 }
+.inforboarder{
+    border-bottom:1px solid rgb(168, 168, 168);
+}
 body{
     margin: 0;
     background-color: rgb(241, 241, 241);
