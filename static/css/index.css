@@ -152,10 +152,9 @@ a{
     .container{
         display: grid;
         padding: 0px;
-        height: 120px;
+        height: auto;
     }
     *{
-        height: auto;
         padding: 0px;
     }
     .headleft{
@@ -205,10 +204,9 @@ a{
     .container{
         display: grid;
         padding: 0px;
-        height: 120px;
+        height: auto;
     }
     *{
-        height: auto;
         padding: 0px;
     }
     .headleft{
