@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    border:2px solid white;
+    color: white;
+    background-color: #11226e;
+    padding: 1%;
+}
+main{
+    padding-top: 2%;
+}
+main h2{
+    color:white;
+}
+.eventItem{
+    padding: 3%;
+}
+.grid-container {
+    display: grid;
+    grid-gap: 15px 2%;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    background-color: #2196F3;
+    padding: 2%;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-text{
+    font-size: 15px;
+  }
