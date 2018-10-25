@@ -2,16 +2,27 @@
 <html>
 
 <head>
+    <!---------------------------------------------------------------------------------------------------------------->
     <title>TU Starter</title>
+    <!---------------------------------------------------------------------------------------------------------------->
     <link rel="stylesheet" href="./static/css/index.css">
-    <script src="./static/js/index.js"></script>
+    <!---------------------------------------------------------------------------------------------------------------->
+    <script src="./static/js/index.js" charset="utf-8"></script>
+    <!---------------------------------------------------------------------------------------------------------------->
+    <script src="./static/js/jQuery.js" charset="utf-8"></script>
+    <!---------------------------------------------------------------------------------------------------------------->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="icon" href="https://lh5.googleusercontent.com/BSWNx5MKo1oPJUFbWiO1KRJwkRAKh0p9vwpb4ECiLiaJCsMw4BcInRXi1GYhH4MeCRbil8b5O_eoM0o2d9y0=w1920-h938">
+    <!---------------------------------------------------------------------------------------------------------------->
+    <link rel="icon" href="./static/img/logo.png">
+    <!---------------------------------------------------------------------------------------------------------------->
 </head>
+
 <body>
     <!-- navigator bar -->
     <nav class="navBar">
-        <div class="navLeft"></div>
+        <div class="navLeft">
+            <a href="./index.html"><img class="navLogo" src="./static/img/logo.png" alt=""></a>
+        </div>
         <div class="navCenter">
             <a href="#" class="navMenu">Member</a>
             <a href="#" class="navMenu">Find</a>
@@ -23,8 +34,60 @@
         </div>
     </nav>
     <!-- body -->
-    <body>
-        
-    </body>
+    <br>
+    <main>
+        <div class="bodyLeft"></div>
+        <div class="bodyCenter">
+                <div class="container">
+	
+                        <div data-am-fadeshow="next-prev-navigation">
+                    
+                            <!-- Radio -->
+                            <input type="radio" name="css-fadeshow" id="slide-1" />
+                            <input type="radio" name="css-fadeshow" id="slide-2" />
+                            <input type="radio" name="css-fadeshow" id="slide-3" />
+                    
+                            <!-- Slides -->
+                            <div class="fs-slides">
+                                <div class="fs-slide" style="background-image: url(https://scontent.fbkk6-2.fna.fbcdn.net/v/t1.0-9/44830411_243779856289953_148470138885111808_o.jpg?_nc_cat=100&_nc_ht=scontent.fbkk6-2.fna&oh=2d78280f0ba47086b3ca0c5b08ee505e&oe=5C4884F7);">
+                                    <!-- Add content to images (sample) -->
+                                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 20px rgba(0,0,0,0.5);">
+                                        <h1 style="margin-top: 0; margin-bottom: 0.8vw; font-size: 5vw; font-weight: bold;">TU Starter</h1>
+                                        <p style="font-size: 2vw; font-weight: 100; margin-top: 0;">First Meet</p>
+                                    </div>
+                                </div>
+                                <div class="fs-slide" style="background-image: url(https://scontent.fbkk6-2.fna.fbcdn.net/v/t1.0-9/43771617_243780142956591_5499989979427766272_o.jpg?_nc_cat=101&_nc_ht=scontent.fbkk6-2.fna&oh=add1dabd3bc9c14cc736fb8535d59853&oe=5C4167C8);"></div>
+                                <div class="fs-slide" style="background-image: url(https://scontent.fbkk6-2.fna.fbcdn.net/v/t1.0-9/44797838_243780922956513_806341515247878144_o.jpg?_nc_cat=107&_nc_ht=scontent.fbkk6-2.fna&oh=3e92bf5b40a5e95f6d6cc2bb0e907222&oe=5C821235);"></div>
+                            </div>
+                    
+                            <!-- Quick Navigation -->
+                            <div class="fs-quick-nav">
+                                <label class="fs-quick-btn" for="slide-1"></label>
+                                <label class="fs-quick-btn" for="slide-2"></label>
+                                <label class="fs-quick-btn" for="slide-3"></label>
+                            </div>
+                            
+                            <!-- Prev Navigation -->
+                            <div class="fs-prev-nav">
+                                <label class="fs-prev-btn" for="slide-1"></label>
+                                <label class="fs-prev-btn" for="slide-2"></label>
+                                <label class="fs-prev-btn" for="slide-3"></label>
+                            </div>
+                            
+                            <!-- Next Navigation -->
+                            <div class="fs-next-nav">
+                                <label class="fs-next-btn" for="slide-1"></label>
+                                <label class="fs-next-btn" for="slide-2"></label>
+                                <label class="fs-next-btn" for="slide-3"></label>
+                            </div>
+                    
+                        </div>
+                        
+                    </div>
+        </div>
+        <div class="bodyRight"></div>
+    </main>
 </body>
+</body>
+
 </html>
