@@ -15,7 +15,8 @@
 .navLogo {
     height: 38px;
     padding-left: 50px;
-    padding-top: 7px;
+    padding-top: 13px;
+    padding-bottom: 0px;
 }
 
 .navLeft {
