@@ -79,7 +79,7 @@ body{
     margin-bottom: 2px;
 }
 .uBoxLeft{
-    flex: 15;
+    flex: 10;
 }
 .uBoxRight{
     flex: 6;
@@ -96,5 +96,5 @@ body{
     flex: 1;
 }
 .bBoxRight{
-    flex: 17;
+    flex: 10;
 }
