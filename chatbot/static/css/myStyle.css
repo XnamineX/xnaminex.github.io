@@ -26,11 +26,10 @@ body{
     border-radius: 15px;
     padding: 6px 16px;
     font-family: 'Prompt', sans-serif;
-    display: inline-block;
-    width: auto;
-    max-width: 80%;
+    display: inline;
+    max-width: 78%;
     opacity: 40%;
-    border-right: 60px;
+    border-right: 40px;
 }
 
 .botMessageBox{
@@ -41,9 +40,8 @@ body{
     border-radius: 20px;
     padding: 6px 16px;
     font-family: 'Prompt', sans-serif;
-    display: inline-block;
-    width: auto;
-    max-width: 100%;
+    display: inline;
+    max-width: 78%;
     opacity: 40%;
 }
 
